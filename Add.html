@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo.png.jpg" alt="MyOnlineMeal.com" weight="80px" height="80px">
+            Produce By:
+            Kuldeep Giri
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="About.html">Abaut Us</a></li>
+            <li class="item"><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home2">
+        <h1 id="a"></h1>
+        <!-- <h1 id=""></h1> -->
+        <script>
+
+            let a = ["Thank You", "So", "Much"];
+            let i = 0;
+            function print() {
+                document.getElementById("a").innerHTML = a[i]
+                i++
+                if (i == 3) {
+                    i = 0
+                }
+            }
+            setInterval(print, 1000);
+
+        </script>
+        <div class="client">
+         <div class="client-item">
+            <img src="images/Delivery.jpg" alt="">
+         </div>
+        
+        </div>
+</body>
+</html>
