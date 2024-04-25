@@ -497,6 +497,7 @@ height: 370px;
 
 }
 #services .box img{
+text-align: center;
 width: 86px;
 padding:2px 8px
 }
